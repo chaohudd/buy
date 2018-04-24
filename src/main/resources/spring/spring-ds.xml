@@ -12,7 +12,7 @@
 	</bean>
 
     <bean id="sqlMapClient" class="org.springframework.orm.ibatis.SqlMapClientFactoryBean">
-		<property name="configLocation" value="classpath:mybatis/sqlmap-config.xml"/>
+		<property name="configLocation" value="classpath:sqlMap/sqlmap-config.xml"/>
         <property name="dataSource" ref="dataSource_mysql"/>
 	</bean>
 	
