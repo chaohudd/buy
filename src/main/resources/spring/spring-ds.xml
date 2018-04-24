@@ -21,11 +21,6 @@
         <property name="dataSource" ref="dataSource_mysql" />
     </bean>
 	
-	<!-- 配置数据源事务 -->
-    <bean id="readSearchMarsService" class="com.jd.ad.bidding.search.mars.service.impl.ExecutionMarsServiceImpl">
-        <property name="dataSource" ref="dataSource_mysql"/>
-        <property name="readDatasource" value="true"/> 
-    </bean>
     
     <!--使用注解式事务声明-->
 	<tx:annotation-driven transaction-manager="mysqlTransactionManager" proxy-target-class="true" />

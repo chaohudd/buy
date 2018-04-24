@@ -6,6 +6,6 @@
 	lazyLoadingEnabled="false" errorTracingEnabled="true" maxTransactions="100"
         maxRequests="320" maxSessions="100" useStatementNamespaces="false" />
         <!-- 留个示例 -->
-	<!-- <sqlMap resource="mybatis/AdvertiseRegionalSourceMapper.xml"/> -->
+	<!-- <sqlMap resource="sqlMap/AdvertiseRegionalSourceMapper.xml"/> -->
 
 </sqlMapConfig>
